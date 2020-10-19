@@ -84,7 +84,7 @@
                     <!--</execution>-->
                 </executions>
                 <configuration>
-                    <repository>terrychank/${artifactId}</repository>
+                    <repository>terrychank/${project.artifactId}</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
